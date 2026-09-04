@@ -26,7 +26,8 @@ const Signup = () => {
       alert(response.data.message);
 
       //window.location.href = "http://localhost:3001";
-      window.location.href="https://zerodha-backend-r60u.onrender.com";
+      //window.location.href="https://zerodha-backend-r60u.onrender.com";
+      window.location.replace("https://zerodha-dashboard-4iiq.onrender.com/");
     } catch (error) {
       console.error(error);
 

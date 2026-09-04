@@ -21,7 +21,9 @@ const Login = () => {
       );
       console.log("Login response:", response.data);
       alert(response.data.message);
-      window.location.replace("http://localhost:3001/");
+      window.location.replace("https://zerodha-dashboard-4iiq.onrender.com/");
+    //  window.location.replace("https://your-dashboard-url.onrender.com/");
+      //window.location.replace("http://localhost:3001/");
     } catch (error) {
       console.error("Login error:", error);
       if (error.response) {
