@@ -11,7 +11,8 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:3002/signup",
+        "https://zerodha-backend-r60u.onrender.com/signup",
+        //"http://127.0.0.1:3002/signup",
         {
           name,
           email,
@@ -24,7 +25,8 @@ const Signup = () => {
 
       alert(response.data.message);
 
-      window.location.href = "http://localhost:3001";
+      //window.location.href = "http://localhost:3001";
+      window.location.href="https://zerodha-backend-r60u.onrender.com";
     } catch (error) {
       console.error(error);
 

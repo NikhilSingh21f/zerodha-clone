@@ -9,7 +9,8 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:3002/login",
+       "https://zerodha-backend-r60u.onrender.com/login",
+        //"http://127.0.0.1:3002/login",
         {
           email,
           password,
